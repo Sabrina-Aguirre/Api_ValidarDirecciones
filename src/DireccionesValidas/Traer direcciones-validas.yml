@@ -1,10 +1,11 @@
 info:
-  name: direcciones-validas
+  name: Traer direcciones-validas
   type: http
+  seq: 1
 
 http:
   method: GET
-  url: http://localhost:3004/direcciones-validas
+  url: http://localhost:3004/direcciones-invalidas
   auth: inherit
 
 settings:
