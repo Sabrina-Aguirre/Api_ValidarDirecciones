@@ -1,4 +1,4 @@
-const CARACTERES_PROHIVIDOS = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', ',', '_', '+']
+const CARACTERES_PROHIVIDOS = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '+']
 const PALABRAS_REQUERIDAS = ['CALLE', 'AVENIDA', 'BULEVAR', 'PASAJE']
 const NUMEROS_REQUERIDAS = [1,2,3,4,5,6,7,8,9]
 const ABREVIATURAS = ['Ca.', 'Av.', 'Blv.', 'Pas.']
@@ -26,6 +26,9 @@ const reglas = [
     }
 ]
 
+const reglaValidacion = ({ direccion }) => reglas.every(regla => regla.validar(direccion))
 
 
-module.exports={reglas}
+
+
+module.exports={reglaValidacion, reglas}

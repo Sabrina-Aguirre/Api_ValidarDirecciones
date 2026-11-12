@@ -1,6 +1,7 @@
 info:
-  name: direcciones-validas
+  name: Traer direcciones-validas
   type: http
+  seq: 1
 
 http:
   method: GET
