@@ -66,4 +66,5 @@ const reglaValidacion = ({ direccion }) => reglas.every(regla => regla.validar(d
 
 
 
+
 module.exports = { reglaValidacion, reglas }

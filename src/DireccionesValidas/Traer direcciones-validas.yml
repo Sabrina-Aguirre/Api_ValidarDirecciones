@@ -1,5 +1,13 @@
 info:
+<<<<<<< HEAD
   name: Traer direcciones-validas
+=======
+<<<<<<<< HEAD:src/DireccionesValidas/Traer direcciones-invalidas.yml
+  name: Traer direcciones-invalidas
+========
+  name: Traer direcciones-validas
+>>>>>>>> 82fe2d3e92c414df06c468f7aac60219c20c46b9:src/DireccionesValidas/Traer direcciones-validas.yml
+>>>>>>> 82fe2d3e92c414df06c468f7aac60219c20c46b9
   type: http
   seq: 1
 
